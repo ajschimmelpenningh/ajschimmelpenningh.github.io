@@ -1,0 +1,577 @@
+@charset "utf-8";
+
+html {
+	padding: 0;
+	margin: 0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #BFEB8D;
+    border-bottom: thick double #E93E3A;
+}
+
+.row {
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+
+.row #hcol1 {
+	width: 40%;
+	background: #000000;
+}
+
+.logo {
+    height: auto;
+    width: 100%;
+}
+
+.row #hcol2 {
+	width: 60%;
+	border-left: thick double #E93E3A;
+}
+
+.row #hcol2 h1 {
+    font-family: Magneto;
+    text-align: center;
+    font-size: 200%;
+    color: #E93E3A;
+}
+
+.body_parent .body_left {
+    background-color: #BFEB8D;
+    border-bottom: double;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border-color: #E93E3A;
+    border-width: thick;
+}
+.body_parent .body_left .body_menu {
+    padding-bottom: 27px;
+}
+
+.body_left .body_menu a {
+    text-decoration: none;
+    font-family: Magneto;
+    color: #E93E3A;
+    font-weight: bold;
+    font-size: large;
+}
+
+.body_left .body_menu .nav_1 {
+    float: left;
+    width: 35%;
+    text-align: left;
+    padding-left: 2%;
+}
+
+.body_left .body_menu .nav_2 {
+    float: none;
+    width: 30%;
+    text-align: center;
+}
+
+.body_left .body_menu .nav_3 {
+    float: right;
+    width: 28%;
+    text-align: right;
+    padding-right: 2%;
+}
+
+.body_left .body_menu .nav_4 {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.body_left .body_menu .nav_5 {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.body_left .body_low_left {
+    display: none;
+}
+
+.body_content {
+    text-align: center;
+}
+
+.body_parent .body_content p {
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+
+/* Start of CSS for Index Page */
+.welc_pic {
+    width: 40%;
+    margin-top: 2%;
+    border: thin solid #312E2E;
+}
+
+/* End of CSS for Index Page */
+
+/* Start of CSS for Hobbies Page */
+
+.hobby_links {
+    width: 100%;
+    display: block;
+}
+
+.hobby_link_box {
+    width: 70%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.hobby_pic {
+    width: 70%;
+    height: auto;
+    border: thin solid #312E2E;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 4%;
+}
+
+.hobby_a {
+    font-family: Magneto;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* End of CSS for Hobbies Page */
+
+/* Start of CSS for Bourbon Page */
+
+#bourbon_right {
+    display: none
+}
+
+#about_right {
+    display: none;
+}
+
+.body_parent #bc {
+    padding-left: 1%;
+}
+
+#bc .multi_list .list_div {
+    text-align: left;
+	padding-right: 2%;
+	width: 33%;
+}
+
+#bc .multi_list .list_div h3 {
+    text-align: center;
+}
+
+.whiskey_list {
+    list-style: square;
+}
+
+.body_parent #bc .multi_list {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+/* End of CSS for Bourbon Page */
+
+/* Start of CSS for Woodworking Page */
+
+.row #hcol2_wood {
+	width: 60%;
+	border-left: thick double #E93E3A;
+}
+
+.row #hcol2_wood h1 {
+    font-family: Magneto;
+    text-align: center;
+    font-size: 200%;
+    color: #E93E3A;
+}
+
+#wood {
+    background-image: url(assets/Wood.png);
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+}
+
+.body_parent .body_content .wood_p {
+    border-radius: 15px;
+    border: thin solid #BBBBBB;
+    width: 80%;
+    text-align: center;
+    margin-left: 7.5%;
+    margin-top: 1%;
+    margin-right: 7.5%;
+    margin-bottom: 7.5%;
+    padding-top: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 2.5%;
+    background-color: rgba(187,187,187,0.8);
+    font-size: large;
+}
+
+.body_content .wood_p .wood_pic {
+    width: 50%;
+    height: auto;
+    border: thin solid #312E2E;
+}
+
+.body_content .wood_p .wood_pic_a {
+    display: inline;
+    width: 37%;
+    border: thin solid #312E2E;
+}
+
+/* End of CSS for Woodworking Page */
+
+/* Start of CSS for Profession Page */
+
+.body_parent #pro_content {
+    align-content: center;
+    justify-content: center;
+}
+
+.body_parent #pro_right .pro_pic_r {
+    border: thin solid #312E2E;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%
+}
+/* End of CSS for Profession Page */
+
+/* Start of CSS for Contact Page */
+
+form #contact_me {
+    display: flex;
+    flex-flow: row-wrap;
+}
+
+legend {
+    text-align: left;
+    font-family: Magneto;
+    color:#E93E3A;
+    background-color: #BFEB8D;
+    border-style: double;
+
+}
+
+fieldset {
+    border: double #E93E3A;
+    margin: 10px;
+}
+
+div .form_row {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 7px 0px;
+}
+
+div .form_row > * {
+    flex: 1 1 150px;
+}
+
+textarea {
+    width: 80%;
+    height: 70%;
+    margin-top: 5px;
+}
+
+.button {
+    margin: 10px;
+}
+
+
+
+
+
+/* End of CSS for Contact Page */
+
+
+/* Tablet or larger */
+
+@media (min-width:480px){
+
+header {
+    height: 15%     
+    }    
+
+ .row #hcol1 {
+	width: 15%;
+	background: #000000;
+}
+
+.row #hcol2 {
+	width: 70%;
+}
+
+    
+.row #hcol2 h1 {
+    font-family: Magneto;
+    text-align: center;
+    font-size: 250%;
+    color: #E93E3A;
+}
+    
+.body_parent {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+    
+.body_left {
+    width: 15%;
+    height: 100%;
+    border-right: double thick;
+}
+.body_left .body_low_left h3 {
+    font-family: Magneto;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    color: #E93E3A;
+}
+
+.body_left .body_menu {
+    padding-left: 10px;
+    }    
+    
+.body_left .body_menu a {
+    font-size: 120%;
+}
+    
+.body_left .body_menu .nav_1 {
+    float: left;
+    width: 90%;
+    text-align: left;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+    
+.body_left .body_menu .nav_2 {
+    float: left;
+    width: 100%;
+    text-align: left;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+    
+.body_left .body_menu .nav_3 {
+    float: left;
+    width: 100%;
+    text-align: left;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+    
+.body_left .body_menu .nav_4 {
+    float: left;
+    width: 100%;
+    text-align: left;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+    
+.body_left .body_menu .nav_5 {
+    float: left;
+    width: 100%;
+    text-align: left;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+
+.body_left .body_low_left {
+    display: inherit;
+    }
+   
+.body_content {
+    width: 84%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+/* About Page */   
+
+#about_content {
+    width: 60%; 
+    display: block;
+	justify-content: center;
+	text-align: center;
+    } 
+    
+.body_parent #about_content p {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#about_right {
+    display: block;
+    width: 24%
+}
+
+.body_parent #about_right .about_pic_r {
+    border: solid;
+    border-width: thin;
+    border-color: #312E2E;
+    width: 99.5%;
+    margin-top: 1%;
+}    
+
+/* About Page */
+   
+    
+/* Profession Page */
+
+#pro_content {
+    width: 60%; 
+    display: block;
+	justify-content: center;
+	text-align: center;
+    } 
+    
+.body_parent #pro_content p {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#pro_right {
+    display: block;
+    width: 24%
+}
+
+.body_parent #pro_right .pro_pic_r {
+    border: solid;
+    border-width: thin;
+    border-color: #312E2E;
+    width: 99.5%;
+    margin-top: 1%;
+    margin-left: 0;
+    margin-right: 0;
+} 
+
+
+/* Profession Page */
+ 
+    
+/*Hobbies Page */
+
+.hobby_links {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    }
+.hobby_p {
+    padding-top: 0;
+    margin-top: -3%;
+    font-size: small;
+    margin-bottom: -1%;
+    }
+    
+.hobby_link_box {
+    width: 30%;
+    margin-right: 0%;
+    margin-left: 0%;
+    }
+    
+/*Hobbies Page */    
+   
+/* Bourbon Page */
+
+.body_left .body_low_left .top_five {
+    width: 80%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    color: #E93E3A;
+    text-align: left;
+}
+   
+.body_left .body_low_left .top_five li {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+    
+.body_parent .body_left .body_low_left {
+	border-top: thick double #E93E3A;
+    margin-top: 191px;
+}
+
+#bc {
+	width: 60%;
+	display: block;
+	justify-content: center;
+	text-align: center;
+}
+
+#bourbon_right {
+    float: right;
+    width: 23%;
+    display: block;
+}
+    
+.body_parent .body_right #bourbon {
+	max-width: 100%;
+}
+
+/* Bourbon Page */
+    
+/* Woodworking Page */ 
+
+.row #hcol2_wood {
+    width: 70%;  
+    }
+
+.row #hcol2_wood h1 {
+    font-family: Magneto;
+    text-align: center;
+    font-size: 250%;
+    color: #E93E3A;
+}
+   
+
+/* Woodworking Page */   
+    
+/* Contact Page */
+    
+fieldset {
+    width: 30%;
+}
+
+
+/* Contact Page */
+
+} 
+/* End Tablet or larger*/

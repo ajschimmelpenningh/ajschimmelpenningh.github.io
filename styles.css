@@ -58,7 +58,7 @@ header {
 
 .body_left .body_menu a {
     text-decoration: none;
-    font-family: Magneto;
+    font-family: magneto;
     color: #E93E3A;
     font-weight: bold;
     font-size: large;
@@ -150,7 +150,7 @@ header {
 }
 
 .hobby_a {
-    font-family: Magneto;
+    font-family: magneto;
     font-size: x-large;
     text-align: center;
     text-decoration: none;
@@ -202,7 +202,7 @@ header {
 }
 
 .row #hcol2_wood h1 {
-    font-family: Magneto;
+    font-family: magneto;
     text-align: center;
     font-size: 200%;
     color: #E93E3A;
@@ -269,7 +269,7 @@ form #contact_me {
 
 legend {
     text-align: left;
-    font-family: Magneto;
+    font-family: magneto;
     color:#E93E3A;
     background-color: #BFEB8D;
     border-style: double;
@@ -327,7 +327,7 @@ header {
 
     
 .row #hcol2 h1 {
-    font-family: Magneto;
+    font-family: magneto;
     text-align: center;
     font-size: 250%;
     color: #E93E3A;
@@ -345,7 +345,7 @@ header {
     border-right: double thick;
 }
 .body_left .body_low_left h3 {
-    font-family: Magneto;
+    font-family: magneto;
     text-align: center;
     font-weight: bold;
     font-size: x-large;
@@ -555,7 +555,7 @@ header {
     }
 
 .row #hcol2_wood h1 {
-    font-family: Magneto;
+    font-family: magneto;
     text-align: center;
     font-size: 250%;
     color: #E93E3A;

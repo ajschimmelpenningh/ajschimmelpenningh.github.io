@@ -310,7 +310,7 @@ textarea {
 
 /* Tablet or larger */
 
-@media (min-width:480px){
+@media (min-width:700px){
 
 header {
     height: 15%     
